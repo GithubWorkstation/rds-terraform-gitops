@@ -6,7 +6,7 @@ resource "aws_db_instance" "example" {
   allocated_storage    = 20
   engine               = "mysql"
   engine_version       = "8.0"
-  instance_class       = "db.t3.micro"
+  instance_class       = "db.t2.micro"
   db_name              = "mydb"
   username             = "admin"
   password             = "password"
